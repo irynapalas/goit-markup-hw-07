@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<!--Header of page-->
+		<header>
+			<div class="container one-line">
+				<!--Navigation-->
+				<nav class="navigation one-line">
+					<a class="navigation-logo" href="./index.html">
+						<span class="logo logo-web">Web</span>
+						<span class="logo">Studio</span>
+					</a>
+					<ul class="list navigation-menu-list">
+						<li class="navigation-menu-list-item"><a href="./index.html" class="navigation-menu-link">Студія</a></li>
+						<li class="navigation-menu-list-item">
+							<a href="./portfolio.html" class="navigation-menu-link current">Портфоліо</a>
+						</li>
+						<li class="navigation-menu-list-item"><a href="#" class="navigation-menu-link">Контакти</a></li>
+					</ul>
+				</nav>
+
+				<!--Contacts-->
+				<ul class="list contacts-list">
+					<li class="contacts-list-item">
+						<a class="contacts-link" href="mailto:info@devstudio.com">
+							<svg class="contacts-icon" width="16" height="12">
+								<use href="./images/icons-all/sprite.svg#envelope"></use>
+							</svg>
+							info@devstudio.com
+						</a>
+					</li>
+					<li class="contacts-list-item">
+						<a class="contacts-link" href="tel:+380961111111">
+							<svg class="contacts-icon" width="10" height="16">
+								<use href="./images/icons-all/sprite.svg#smartphone"></use>
+							</svg>
+							+38 096 111 11 11
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+
+		<!--Main unique content of the page-->
+		<main>
+			<section>
+				<h1 class="visually-hidden">Контент сторінки потрфоліо</h1>
+
+				<!-- Portfolio page content -->
+				<div class="container section-vertical-padding">
+					<!--section with portfolio-page buttons-->
+					<div>
+						<h2 class="visually-hidden">Портфоліо лінкс</h2>
+						<ul class="list portfolio-list-btn">
+							<li class="item"><button class="btn-portfolio" type="button">Все</button></li>
+							<li class="item"><button class="btn-portfolio" type="button">Веб-сайти</button></li>
+							<li class="item"><button class="btn-portfolio" type="button">Додатки</button></li>
+							<li class="item"><button class="btn-portfolio" type="button">Дизайн</button></li>
+							<li class="item"><button class="btn-portfolio" type="button">Маркетинг</button></li>
+						</ul>
+					</div>
+
+					<!--Portfolio image-content-->
+					<div>
+						<h2 class="visually-hidden">Порфоліо контент</h2>
+						<ul class="list content-portfolio-list">
+							<!-- Portfolio content img1 -->
+							<li class="content-portfolio-list-item">
+								<a class="portfolio-list-item-link" href="">
+									<div class="box-img">
+										<img
+											class="content-img"
+											src="./images/portfolio-page/portfolio-img1.jpg"
+											alt="Відкритий ноутбук"
+											width="370"
+										/>
+										<p class="content-portfolio-list-item-pop-up-text">
+											Технокряк це сучасний майданчик поширення коронавируса. Компанії використовують цю платформу для
+											цифрового шпигунства і атак на захищені сервера конкурентів.
+										</p>
+									</div>
+									<h3 class="content-portfolio-list-item-title">Технокряк</h3>
+									<p class="content-portfolio-list-item-point">Веб-сайт</p>
+								</a>
+							</li>
+
+							<!-- Portfolio content img2 -->
+							<li class="content-portfolio-list-item">
+								<a class="portfolio-list-item-link" href="">
+									<img
+										class="content-img"
+										src="./images/portfolio-page/portfolio-img2.jpg"
+										alt="Два баскетболісти в стрибкуборяться за м'яч"
+										width="370"
+									/>
+									<h3 class="content-portfolio-list-item-title">Постер New Orlean vs Golden Star</h3>
+									<p class="content-portfolio-list-item-point">Дизайн</p>
+									<!-- <p class="content-portfolio-list-item-pop-up-text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, minus?
+									</p> -->
+								</a>
+							</li>
+
+							<!-- Portfolio contenc img3 -->
+							<li class="content-portfolio-list-item">
+								<a class="portfolio-list-item-link" href="">
+									<img
+										class="content-img"
+										src="./images/portfolio-page/portfolio-img3.jpg"
+										alt="Логотип-зображення ресторану морської їжі"
+										width="370"
+									/>
+									<h3 class="content-portfolio-list-item-title">Ресторан Seafood</h3>
+									<p class="content-portfolio-list-item-point">Додаток</p>
+									<!-- <p class="content-portfolio-list-item-pop-up-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, at?
+									</p> -->
+								</a>
+							</li>
+
+							<!-- Portfolio content img4 -->
+							<li class="content-portfolio-list-item">
+								<a class="portfolio-list-item-link" href="">
+									<img
+										class="content-img"
+										src="./images/portfolio-page/portfolio-img4.jpg"
+										alt="Великі чорні навушники"
+										width="370"
+									/>
+									<h3 class="content-portfolio-list-item-title">Проект Prime</h3>
+									<p class="content-portfolio-list-item-point">Маркетинг</p>
+									<!-- <p class="content-portfolio-list-item-pop-up-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sunt.
+									</p> -->
+								</a>
+							</li>
+
+							<!-- Portfolio content img5 -->
+							<li class="content-portfolio-list-item">
+								<a class="portfolio-list-item-link" href="">
+									<img
+										class="content-img"
+										src="./images/portfolio-page/portfolio-img5.jpg"
+										alt="Дві коробочки білого і бежевого кольору з написами зверху"
+										width="370"
+									/>
+									<h3 class="content-portfolio-list-item-title">Проект Boxes</h3>
+									<p class="content-portfolio-list-item-point">Додаток</p>
+									<!-- <p class="content-portfolio-list-item-pop-up-text">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima.
+									</p> -->
+								</a>
+							</li>
+
+							<!-- Portfolio content img6 -->
+							<li class="content-portfolio-list-item">
+								<a class="portfolio-list-item-link" href="">
+									<img
+										class="content-img"
+										src="./images/portfolio-page/portfolio-img6.jpg"
+										alt="Монітор з відкритою на ньому вкладкою браузера"
+										width="370"
+									/>
+									<h3 class="content-portfolio-list-item-title">Inspiration has no Borders</h3>
+									<p class="content-portfolio-list-item-point">Веб-сайт</p>
+									<!-- <p class="content-portfolio-list-item-pop-up-text">
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto?
+									</p> -->
+								</a>
+							</li>
+
+							<!-- Portfolio content img7 -->
+							<li class="content-portfolio-list-item">
+								<a class="portfolio-list-item-link" href="">
+									<img
+										class="content-img"
+										src="./images/portfolio-page/portfolio-img7.jpg"
+										alt="Розгорнутий журнал, на сторінках якого фотки і текст"
+										width="370"
+									/>
+									<h3 class="content-portfolio-list-item-title">Издание Limited Edition</h3>
+									<p class="content-portfolio-list-item-point">Дизайн</p>
+									<!-- <p class="content-portfolio-list-item-pop-up-text">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo?
+									</p> -->
+								</a>
+							</li>
+
+							<!-- Portfolio content img8 -->
+							<li class="content-portfolio-list-item">
+								<a class="portfolio-list-item-link" href="">
+									<img
+										class="content-img"
+										src="./images/portfolio-page/portfolio-img8.jpg"
+										alt="Біла бірка з написом, на бежевому шнурочку"
+										width="370"
+									/>
+									<h3 class="content-portfolio-list-item-title">Проект LAB</h3>
+									<p class="content-portfolio-list-item-point">Маркетинг</p>
+									<!-- <p class="content-portfolio-list-item-pop-up-text">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem.
+									</p> -->
+								</a>
+							</li>
+
+							<!-- Portfolio content img9 -->
+							<li class="content-portfolio-list-item">
+								<a class="portfolio-list-item-link" href="">
+									<img
+										class="content-img"
+										src="./images/portfolio-page/portfolio-img9.jpg"
+										alt="Руки людини, яка працює за ноутбуком"
+										width="370"
+									/>
+									<h3 class="content-portfolio-list-item-title">Growing Business</h3>
+									<p class="content-portfolio-list-item-point">Додаток</p>
+									<!-- <p class="content-portfolio-list-item-pop-up-text">
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex?
+									</p> -->
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!--Footer-->
+		<footer class="footer">
+			<div class="container footer-box">
+				<!--Contacts-->
+				<div>
+					<a class="navigation-logo" href="./index.html">
+						<span class="logo logo-web">Web</span>
+						<span class="logo footer-logo-studio">Studio</span>
+					</a>
+					<address>
+						<p class="footer-address-info">м.Київ, пр-т Лесі Українки, 26</p>
+						<ul class="list">
+							<li><a class="footer-contacts-info" href="mailto:info@example.com">info@example.com</a></li>
+							<li><a class="footer-contacts-info" href="tel:+380961111111">+38 099 111 11 11</a></li>
+						</ul>
+					</address>
+				</div>
+
+				<!--Social-links for web studio-->
+				<div class="join-menu">
+					<b class="footer-join">Приєднуйтесь</b>
+					<ul class="list join-links-list">
+						<li class="join-links-list-item">
+							<a
+								class="join-links"
+								href="https://www.instagram.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Ссилка на інстаграм"
+							>
+								<svg class="icon-social-links-footer" width="20" height="20">
+									<use href="./images/icons-all/sprite.svg#instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="join-links-list-item">
+							<a
+								class="join-links"
+								href="https://www.twitter.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Ссилка на твітер"
+							>
+								<svg class="icon-social-links-footer" width="20" height="20">
+									<use href="./images/icons-all/sprite.svg#twitter"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="join-links-list-item">
+							<a
+								class="join-links"
+								href="https://www.facebook.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Ссилка на фейсбук"
+							>
+								<svg class="icon-social-links-footer" width="20" height="20">
+									<use href="./images/icons-all/sprite.svg#facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li class="join-links-list-item">
+							<a
+								class="join-links"
+								href="https://www.linkedin.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Ссилка на лінкедін"
+							>
+								<svg class="icon-social-links-footer" width="20" height="20">
+									<use href="./images/icons-all/sprite.svg#linkedin"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<!--Mail subscription-->
+				<div class="subscription">
+					<b class="footer-join">Підпищіться на розсилку</b>
+					<form class="subscription-form">
+						<input class="mail-sub" type="email" name="mail" placeholder="E-mail" />
+						<button class="btn-submit" type="submit">
+							Підписатись
+							<svg class="icon-send" width="24" height="24">
+								<use href="./images/icons-all/sprite.svg#icon-send"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
